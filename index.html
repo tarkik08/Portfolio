@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkik Sai - Web Developer & UI Designer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="nav-logo">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="12" cy="12" r="10"></circle>
+                    <path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path>
+                    <path d="M2 12h20"></path>
+                </svg>
+                TARKIK
+            </a>
+
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </div>
+
+            <div class="nav-cta">
+                <a href="#contact" class="btn-primary">Book a call</a>
+            </div>
+
+            <button class="nav-toggle" aria-label="Menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Mobile Menu Overlay -->
+    <div class="nav-mobile">
+        <a href="#home">Home</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+        <a href="#contact" class="btn-primary">Book a call</a>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content fade-in">
+            <div class="availability-badge">
+                Available for new projects
+            </div>
+
+            <h1 class="hero-title">TARKIK SAI</h1>
+
+            <p class="hero-subtitle">
+                Web Development • WordPress • UI Design • E-Commerce
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#contact" class="btn-primary">Book a call</a>
+                <a href="#projects" class="btn-secondary">See work</a>
+            </div>
+
+            <div class="hero-socials">
+                <a href="mailto:webxio.in@gmail.com" aria-label="Email">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                        <polyline points="22,6 12,13 2,6"></polyline>
+                    </svg>
+                </a>
+                <a href="tel:9491322698" aria-label="Phone">
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path
+                            d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z">
+                        </path>
+                    </svg>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-item fade-in">
+                    <div class="stat-number" data-target="3">0<span class="plus">+</span></div>
+                    <div class="stat-label">Years of experience</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number" data-target="20">0<span class="plus">+</span></div>
+                    <div class="stat-label">Clients served</div>
+                </div>
+                <div class="stat-item fade-in">
+                    <div class="stat-number" data-target="35">0<span class="plus">+</span></div>
+                    <div class="stat-label">Projects completed</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Work -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <div class="projects-header fade-in">
+                <h2 class="section-title">HAVE A LOOK AT MY WORK</h2>
+                <div class="projects-header-right">
+                    <div class="section-label">Projects</div>
+                </div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card fade-in" onclick="window.open('https://testing.trumarx.in', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1600&auto=format&fit=crop"
+                        alt="Trumarx" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <button class="view-project-btn">VISIT WEBSITE</button>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Web Development</span>
+                            <span class="project-tag">Business</span>
+                        </div>
+                        <h3 class="project-title">Trumarx</h3>
+                        <p class="project-description">Corporate website development for Trumarx.</p>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="project-card fade-in"
+                    onclick="window.open('https://tarkik08.github.io/anaia-cafe/', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1554118811-1e0d58224f24?q=80&w=1600&auto=format&fit=crop"
+                        alt="Anaia Cafe" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <button class="view-project-btn">VISIT WEBSITE</button>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Cafe</span>
+                            <span class="project-tag">Lifestyle</span>
+                        </div>
+                        <h3 class="project-title">Anaia Cafe</h3>
+                        <p class="project-description">Modern website for a local cafe.</p>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="project-card fade-in"
+                    onclick="window.open('https://tarkik08.github.io/anaia-cafe/', '_blank')">
+                    <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?q=80&w=1600&auto=format&fit=crop"
+                        alt="Consultancy Firm" class="project-card-image">
+                    <div class="project-card-overlay">
+                        <button class="view-project-btn">VISIT WEBSITE</button>
+                    </div>
+                    <div class="project-card-content">
+                        <div class="project-tags">
+                            <span class="project-tag">Consultancy</span>
+                            <span class="project-tag">Corporate</span>
+                        </div>
+                        <h3 class="project-title">Consultancy Firm</h3>
+                        <p class="project-description">Professional presence for a consultancy business.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <div class="services-header fade-in">
+                <div class="section-label" style="justify-content: center;">Services</div>
+                <h2 class="section-title">WHAT I OFFER</h2>
+                <p class="section-description">Specialized in Web Development, UI Design, and E-commerce solutions.</p>
+            </div>
+
+            <div class="services-tabs fade-in">
+                <button class="service-tab active" data-tab="webdev">
+                    <span class="service-tab-number">[1]</span> Web Development
+                </button>
+                <button class="service-tab" data-tab="wordpress">
+                    <span class="service-tab-number">[2]</span> WordPress
+                </button>
+                <button class="service-tab" data-tab="uidesign">
+                    <span class="service-tab-number">[3]</span> UI Design
+                </button>
+                <button class="service-tab" data-tab="ecommerce">
+                    <span class="service-tab-number">[4]</span> E-commerce
+                </button>
+            </div>
+
+            <div class="container" style="max-width: 800px;">
+                <!-- Web Development Content -->
+                <div id="webdev" class="service-content active fade-in">
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            HTML5 & CSS3
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Responsive Layouts
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Performance
+                        </div>
+                    </div>
+                    <p class="service-description-text">
+                        Custom web development using clean HTML, CSS, and modern standards. I build fast, responsive,
+                        and SEO-friendly websites tailored to your specific needs.
+                    </p>
+                </div>
+
+                <!-- WordPress Content -->
+                <div id="wordpress" class="service-content">
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Custom Themes
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Plugin Integration
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Easy Management
+                        </div>
+                    </div>
+                    <p class="service-description-text">
+                        Powerful WordPress solutions. Whether you need a blog, portfolio, or business site, I create
+                        secure and manageable WordPress websites that you can easily update.
+                    </p>
+                </div>
+
+                <!-- UI Design Content -->
+                <div id="uidesign" class="service-content">
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Figma
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Prototyping
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Visual Identity
+                        </div>
+                    </div>
+                    <p class="service-description-text">
+                        Stunning user interface design. Using Figma, I craft intuitive and visually appealing designs
+                        that reflect your brand identity and enhance user experience.
+                    </p>
+                </div>
+
+                <!-- E-commerce Content -->
+                <div id="ecommerce" class="service-content">
+                    <div class="service-features">
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Online Stores
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Payment Gateways
+                        </div>
+                        <div class="service-feature">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg>
+                            Product Management
+                        </div>
+                    </div>
+                    <p class="service-description-text">
+                        Full-featured e-commerce websites. I verify seamless shopping experiences with secure payment
+                        integration and easy product management to help your business grow online.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tools -->
+    <section class="tools">
+        <div class="container">
+            <div class="tools-header fade-in">
+                <div class="section-label" style="justify-content: center;">Tools</div>
+                <h2 class="section-title">TOOLS & TECH</h2>
+                <p class="section-description">The technology stack I use to build your digital presence.</p>
+            </div>
+
+            <div class="tools-grid">
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M5 5.5A3.5 3.5 0 0 1 8.5 2H12v7H8.5A3.5 3.5 0 0 1 5 5.5z"></path>
+                            <path d="M12 2h3.5a3.5 3.5 0 1 1 0 7H12V2z"></path>
+                            <path d="M12 12.5a3.5 3.5 0 1 1-7 0 3.5 3.5 0 0 1 7 0z"></path>
+                            <path d="M5 19.5A3.5 3.5 0 0 1 8.5 16H12v3.5a3.5 3.5 0 1 1-7 0z"></path>
+                            <path d="M5 12.5A3.5 3.5 0 0 1 8.5 9H12v7H8.5A3.5 3.5 0 0 1 5 12.5z"></path>
+                        </svg>
+                    </div>
+                    <div class="tool-category">Design</div>
+                    <h3 class="tool-name">Figma</h3>
+                    <p class="tool-description">UI/UX design, prototyping, and collaboration.</p>
+                </div>
+
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
+                        </svg>
+                    </div>
+                    <div class="tool-category">CMS</div>
+                    <h3 class="tool-name">WordPress</h3>
+                    <p class="tool-description">Custom themes and content management.</p>
+                </div>
+
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <polyline points="16 18 22 12 16 6"></polyline>
+                            <polyline points="8 6 2 12 8 18"></polyline>
+                        </svg>
+                    </div>
+                    <div class="tool-category">Development</div>
+                    <h3 class="tool-name">HTML & CSS</h3>
+                    <p class="tool-description">Semantic markup and solid styling.</p>
+                </div>
+
+                <div class="tool-card fade-in">
+                    <div class="tool-icon">
+                        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5">
+                            <circle cx="9" cy="21" r="1"></circle>
+                            <circle cx="20" cy="21" r="1"></circle>
+                            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
+                        </svg>
+                    </div>
+                    <div class="tool-category">Commerce</div>
+                    <h3 class="tool-name">E-Commerce</h3>
+                    <p class="tool-description">Online store solutions and payments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing -->
+    <section class="pricing">
+        <div class="container">
+            <div class="pricing-header fade-in">
+                <div class="section-label" style="justify-content: center;">Pricing</div>
+                <h2 class="section-title">PRICING PLANS</h2>
+                <p class="section-description">Choose the right package for your project.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Basic Plan -->
+                <div class="pricing-card fade-in">
+                    <span class="pricing-badge">Landing Page</span>
+                    <div class="pricing-tags">
+                        <span class="pricing-tag">HTML/CSS</span>
+                        <span class="pricing-tag">Design</span>
+                    </div>
+                    <h3 class="pricing-amount">₹6,000+</h3>
+                    <p class="pricing-description">Perfect for personal portfolios or small business landing pages.</p>
+
+                    <div class="pricing-features">
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> One page design</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Responsive mobile layout</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> SEO friendly</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Contact form integration</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Fast loading speed</div>
+                    </div>
+
+                    <div class="pricing-barcode">
+                        <span style="height:30px"></span><span style="height:20px"></span><span
+                            style="height:35px"></span><span style="height:25px"></span><span
+                            style="height:15px"></span><span style="height:38px"></span><span
+                            style="height:22px"></span><span style="height:32px"></span><span
+                            style="height:18px"></span><span style="height:28px"></span><span
+                            style="height:20px"></span><span style="height:35px"></span><span
+                            style="height:25px"></span><span style="height:15px"></span><span
+                            style="height:38px"></span>
+                    </div>
+
+                    <a href="#contact" class="btn-secondary"
+                        style="width: 100%; display:inline-flex; text-decoration:none;">Get started now</a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div class="pricing-card featured fade-in">
+                    <span class="pricing-badge">Business Site</span>
+                    <div class="pricing-tags">
+                        <span class="pricing-tag">WordPress</span>
+                        <span class="pricing-tag">CMS</span>
+                    </div>
+                    <h3 class="pricing-amount">₹9,000+</h3>
+                    <p class="pricing-description">Complete business website with easy content management.</p>
+
+                    <div class="pricing-features">
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> 5-10 Pages</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> WordPress CMS</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Custom Design</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Blog integration</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Social media integration</div>
+                    </div>
+
+                    <div class="pricing-barcode">
+                        <span style="height:35px"></span><span style="height:25px"></span><span
+                            style="height:40px"></span><span style="height:30px"></span><span
+                            style="height:20px"></span><span style="height:38px"></span><span
+                            style="height:28px"></span><span style="height:36px"></span><span
+                            style="height:22px"></span><span style="height:32px"></span><span
+                            style="height:20px"></span><span style="height:35px"></span><span
+                            style="height:25px"></span><span style="height:15px"></span><span
+                            style="height:38px"></span>
+                    </div>
+
+                    <a href="#contact" class="btn-primary"
+                        style="width: 100%; display:inline-flex; text-decoration:none;">Get started now</a>
+                </div>
+
+                <!-- Custom Plan -->
+                <div class="pricing-card fade-in">
+                    <span class="pricing-badge">E-Commerce</span>
+                    <div class="pricing-tags">
+                        <span class="pricing-tag">Store</span>
+                        <span class="pricing-tag">Sales</span>
+                    </div>
+                    <h3 class="pricing-amount">₹18,000+</h3>
+                    <p class="pricing-description">Full-featured online store to sell your products.</p>
+
+                    <div class="pricing-features">
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Online Store Setup</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Payment Gateway</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Product Management</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Order Tracking</div>
+                        <div class="pricing-feature"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                                stroke-width="3">
+                                <polyline points="20 6 9 17 4 12"></polyline>
+                            </svg> Priority Support</div>
+                    </div>
+
+                    <div class="pricing-barcode">
+                        <span style="height:30px"></span><span style="height:22px"></span><span
+                            style="height:38px"></span><span style="height:28px"></span><span
+                            style="height:18px"></span><span style="height:35px"></span><span
+                            style="height:25px"></span><span style="height:30px"></span><span
+                            style="height:20px"></span><span style="height:32px"></span><span
+                            style="height:20px"></span><span style="height:35px"></span><span
+                            style="height:25px"></span><span style="height:15px"></span><span
+                            style="height:38px"></span>
+                    </div>
+
+                    <a href="#contact" class="btn-secondary"
+                        style="width: 100%; display:inline-flex; text-decoration:none;">Get started now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="testimonials">
+        <div class="container">
+            <div class="testimonials-header fade-in">
+                <div class="section-label" style="justify-content: center;">Testimonials</div>
+                <h2 class="section-title">WHAT CLIENTS SAY</h2>
+                <p class="section-description">Trusted by businesses to deliver quality digital solutions.</p>
+            </div>
+
+            <div class="testimonials-grid">
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">Tarkik delivered a professional website that perfectly represents our
+                        consultancy. The attention to detail and timely delivery were impressive.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">C</div>
+                        <div class="testimonial-info">
+                            <h4>Apexora Consultancy</h4>
+                            <span>Business Consultant</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">Our cafe website looks amazing! It captures the vibe of our place
+                        perfectly and customers find it very easy to navigate.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">A</div>
+                        <div class="testimonial-info">
+                            <h4>Anaia Cafe</h4>
+                            <span>Manager</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="testimonial-card fade-in">
+                    <p class="testimonial-quote">Great experience working with Tarkik. The Trumarx website functions
+                        flawlessly and has helped improve our online presence significantly.</p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar">T</div>
+                        <div class="testimonial-info">
+                            <h4>Trumarx</h4>
+                            <span>Director</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <div class="faq-header fade-in">
+                <div class="section-label" style="justify-content: center;">FAQ</div>
+                <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            </div>
+
+            <div class="faq-grid">
+                <!-- FAQ 1 -->
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        What services do you offer?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>I specialize in Web Development using HTML/CSS, WordPress CMS, UI Design with Figma, and
+                            E-commerce websites.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        How long does a typical project take?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>A standard website can take anywhere from 3 to 7 working days depending on the complexity and
+                            requirements. E-commerce sites will be done in 5 days.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        Can you update my existing site?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I can work with existing HTML websites or WordPress themes to make updates, fix issues,
+                            or redesign them.</p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item fade-in">
+                    <div class="faq-question">
+                        Do you provide support after launch?
+                        <div class="faq-icon">+</div>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Yes, I offer support to ensure your website continues to run smoothly after it goes live at
+                            no extra cost based on the pricing</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="faq-cta fade-in">
+                <h3>Do you have more questions?</h3>
+                <p>Didn't find the answer you were looking for? I'm just a message away.</p>
+                <a href="#contact" class="btn-primary">Contact me</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer / CTA -->
+    <section id="contact" class="cta-section">
+        <div class="container cta-content fade-in">
+            <h2 class="section-title">LET'S WORK TOGETHER</h2>
+            <p class="section-description">Got an idea? I can help you design and build it — simple, clean, and ready to
+                launch.</p>
+            <div class="contact-methods" style="display: flex; gap: 16px; justify-content: center; flex-wrap: wrap;">
+                <a href="mailto:webxio.in@gmail.com" class="btn-primary">webxio.in@gmail.com</a>
+                <a href="tel:9491322698" class="btn-secondary">+91 9491322698</a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container footer-content">
+            <div class="footer-left">
+                <div class="footer-logo">TARKIK SAI</div>
+                <a href="mailto:webxio.in@gmail.com" class="footer-email">webxio.in@gmail.com</a>
+            </div>
+
+            <div class="footer-right">
+                <span class="footer-copyright">© 2025 Tarkik Sai. All rights reserved.</span>
+                <span class="footer-credit">Web Developer & UI Designer</span>
+                <div class="available-badge">Available for projects</div>
+                <button class="back-to-top">Back to top ↑</button>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
